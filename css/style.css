@@ -1,0 +1,55 @@
+/* bebug rules */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+    
+ul, ol, menu {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+    
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+/* layout */
+/* main */
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar {
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 100%;
+}
+
+/* footer */
+.footer {
+    background-color: grey;
+    color: white;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.footer ul {
+    display: flex;
+    gap: 10px;
+}
+
+.left {
+    padding-left: 10px;
+}
+
+.right {
+    padding-right: 10px;
+}
