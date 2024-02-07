@@ -54,6 +54,10 @@ main {
     color: white;
 }
 
+.logo-e-lista h1 {
+    margin-bottom: 15px;
+}
+
 /* main button */
 .viewport-element {
 background-color: blue;
@@ -72,10 +76,14 @@ background-color: blue;
 
 
 /* footer */
+footer {
+    background-color: gray;
+}
+
 .footer {
-    background-color: grey;
     color: white;
     justify-content: space-between;
+    align-items: center;
     height: 70px;
 }
 
@@ -93,9 +101,5 @@ background-color: blue;
 }
 
 /* style */
-footer {
-    height: 70px;
-    background-color: gray;
-}
 
 
