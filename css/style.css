@@ -66,6 +66,10 @@ background-color: blue;
 .button {
     background-color: rgb(12, 12, 173);;
     height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 10px;
 }
 
 /* main text */
